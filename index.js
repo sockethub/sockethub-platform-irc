@@ -165,7 +165,7 @@ IRC.prototype.config = {
  *
  * Join a room or private conversation.
  *
- * @param {object} job activiy streams object // TODO LINK
+ * @param {object} job activity streams object // TODO LINK
  * @param {object} credentials credentials object // TODO LINK
  * @param {object} done callback when job is done // TODO LINK
  *
@@ -211,7 +211,7 @@ IRC.prototype.join = function (job, credentials, done) {
  *
  * Leave a room or private conversation.
  *
- * @param {object} job activiy streams object // TODO LINK
+ * @param {object} job activity streams object // TODO LINK
  * @param {object} credentials credentials object // TODO LINK
  * @param {object} done callback when job is done // TODO LINK
  *
@@ -249,7 +249,7 @@ IRC.prototype.leave = function (job, credentials, done) {
  *
  * Send a message to a room or private conversation.
  *
- * @param {object} job activiy streams object // TODO LINK
+ * @param {object} job activity streams object // TODO LINK
  * @param {object} credentials credentials object // TODO LINK
  * @param {object} done callback when job is done // TODO LINK
  *
@@ -326,7 +326,7 @@ IRC.prototype.send = function (job, credentials, done) {
  *
  * Indicate a change (ie. room topic update, or nickname change).
  *
- * @param {object} job activiy streams object // TODO LINK
+ * @param {object} job activity streams object // TODO LINK
  * @param {object} credentials redentials object // TODO LINK
  * @param {object} done callback when job is done // TODO LINK
  *
@@ -406,7 +406,7 @@ IRC.prototype.update = function (job, credentials, done) {
  *
  * Indicate an intent to observe something (ie. get a list of users in a room).
  *
- * @param {object} job activiy streams object // TODO LINK
+ * @param {object} job activity streams object // TODO LINK
  * @param {object} credentials credentials object // TODO LINK
  * @param {object} done callback when job is done // TODO LINK
  *
@@ -432,7 +432,7 @@ IRC.prototype.update = function (job, credentials, done) {
  *  }
  *
  *
- *  // The obove object might return:
+ *  // The above object might return:
  *  {
  *    context: 'irc',
  *    '@type': 'observe',
