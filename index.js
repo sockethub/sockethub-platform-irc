@@ -83,7 +83,7 @@ function IRC(cfg) {
  *    '@type': 'set',
  *    context: 'irc',
  *    actor: {
- *      '@id': 'irc://testuser@irc.host.net',
+ *      '@id': 'testuser@irc.host.net',
  *      '@type': 'person',
  *      displayName: 'Mr. Test User',
  *      userName: 'testuser'
@@ -175,12 +175,12 @@ IRC.prototype.config = {
  *   context: 'irc',
  *   '@type': 'join',
  *   actor: {
- *     '@id': 'irc://slvrbckt@irc.freenode.net',
+ *     '@id': 'slvrbckt@irc.freenode.net',
  *     '@type': 'person',
  *     displayName: 'slvrbckt'
  *   },
  *   target: {
- *     '@id': 'irc://irc.freenode.net/sockethub',
+ *     '@id': 'irc.freenode.net/sockethub',
  *     '@type': 'room',
  *     displayName: '#sockethub'
  *   },
@@ -220,12 +220,12 @@ IRC.prototype.join = function (job, credentials, done) {
  *   context: 'irc',
  *   '@type': 'leave',
  *   actor: {
- *     '@id': 'irc://slvrbckt@irc.freenode.net',
+ *     '@id': 'slvrbckt@irc.freenode.net',
  *     '@type': 'person',
  *     displayName: 'slvrbckt'
  *   },
  *   target: {
- *     '@id': 'irc://irc.freenode.net/remotestorage',
+ *     '@id': 'irc.freenode.net/remotestorage',
  *     '@type': 'room',
  *     displayName: '#remotestorage'
  *   },
@@ -259,13 +259,13 @@ IRC.prototype.leave = function (job, credentials, done) {
  *    context: 'irc',
  *    '@type': 'send',
  *    actor: {
- *      '@id': 'irc://slvrbckt@irc.freenode.net',
+ *      '@id': 'slvrbckt@irc.freenode.net',
  *      '@type': 'person',
  *      displayName: 'Nick Jennings',
  *      userName: 'slvrbckt'
  *    },
  *    target: {
- *      '@id': 'irc://irc.freenode.net/remotestorage',
+ *      '@id': 'irc.freenode.net/remotestorage',
  *      '@type': 'room',
  *      displayName: '#remotestorage'
  *    },
@@ -336,13 +336,13 @@ IRC.prototype.send = function (job, credentials, done) {
  *   context: 'irc',
  *   '@type': 'update',
  *   actor: {
- *     '@id': 'irc://slvrbckt@irc.freenode.net',
+ *     '@id': 'slvrbckt@irc.freenode.net',
  *     '@type': 'person',
  *     displayName: 'Nick Jennings',
  *     userName: 'slvrbckt'
  *   },
  *   target: {
- *     '@id': 'irc://irc.freenode.net/sockethub',
+ *     '@id': 'irc.freenode.net/sockethub',
  *     '@type': 'room',
  *     displayName: '#sockethub'
  *   },
@@ -357,7 +357,7 @@ IRC.prototype.send = function (job, credentials, done) {
  *    context: 'irc'
  *    '@type': 'udpate',
  *    actor: {
- *      '@id': 'irc://slvrbckt@irc.freenode.net',
+ *      '@id': 'slvrbckt@irc.freenode.net',
  *      '@type': 'person',
  *      displayName: 'slvrbckt'
  *    },
@@ -365,7 +365,7 @@ IRC.prototype.send = function (job, credentials, done) {
  *      '@type': "address",
  *    },
  *    target: {
- *      '@id': 'irc://cooldude@irc.freenode.net',
+ *      '@id': 'cooldude@irc.freenode.net',
  *      '@type': 'person',
  *      displayName: cooldude
  *    }
@@ -416,13 +416,13 @@ IRC.prototype.update = function (job, credentials, done) {
  *    context: 'irc',
  *    '@type': 'observe',
  *    actor: {
- *      '@id': 'irc://slvrbckt@irc.freenode.net',
+ *      '@id': 'slvrbckt@irc.freenode.net',
  *      '@type': 'person',
  *      displayName: 'Nick Jennings',
  *      userName: 'slvrbckt'
  *    },
  *    target: {
- *      '@id': 'irc://irc.freenode.net/sockethub',
+ *      '@id': 'irc.freenode.net/sockethub',
  *      '@type': 'room',
  *      displayName: '#sockethub'
  *    },
@@ -437,7 +437,7 @@ IRC.prototype.update = function (job, credentials, done) {
  *    context: 'irc',
  *    '@type': 'observe',
  *    actor: {
- *      '@id': 'irc://irc.freenode.net/sockethub',
+ *      '@id': 'irc.freenode.net/sockethub',
  *      '@type': 'room',
  *      displayName: '#sockethub'
  *    },
